@@ -1,0 +1,194 @@
+ body {
+    background-color: linen;
+
+}
+
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.tooltip {
+  position: absolute;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+  top:70px;
+  left:1120px;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 350px;
+  background-color: #D3D3D3;
+  color: #000;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  opacity: 0.9;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+
+#myTable{
+    width: 500px;
+    height: 100%;
+}
+
+.create_table{
+    height: 20.5em;
+    overflow-x: auto;
+}
+
+#rotor_part_1
+  {
+    position: relative;
+    top: 496px;
+    left: 541px;
+  }  
+
+/*#rotor_part_2{
+    position: relative;
+    top:520px;
+    left: 550px;
+}*/
+.demo {
+    /* for IE10+ touch devices */
+    touch-action:none;
+}
+/** JSPLUMB ARTEFACTS **/
+.jtk-overlay {
+    z-index: 51;
+}
+
+.jtk-endpoint {
+    z-index: 50;
+    cursor: move;
+}
+
+.jtk-connector {
+    z-index: 1;
+}
+
+/** ELEMENTS **/
+.littledot
+{
+    cursor: pointer;
+    width: 12px;
+    height: 12px;
+    background-image: url(littledot.png);
+    z-index: 11;
+    position: absolute;
+    border-radius: 31px;
+}
+
+
+
+.littledot-hover-hover {
+    border: 2px solid orange;
+}
+
+.dropHover {
+    border: 1px solid orange;
+}
+
+/** ELEMENT POSITIONS **/
+#ld1 {
+    top: 280px;
+    left: 78px;
+}
+
+#ld2 {
+    top: 280px;
+    left: 137px;
+}
+
+#ld3 {
+    top: 222px;
+    left: 239px;
+}
+
+#ld4 {
+    top: 222px;
+    left: 300px;
+}
+
+#ld5 {
+    top: 222px;
+    left: 356px;
+}
+
+#ld6 {
+    top: 464px;
+    left: 129px;
+}
+
+#ld7 {
+    top: 395px;
+    left: 399px;
+}
+
+#ld8 {
+    top: 617px;
+    left: 125px;
+}
+
+#ld9 {
+    top: 550px;
+    left: 399px;
+}
+
+#ld10 {
+    top: 406px;
+    left: 607px;
+}
+
+
+
+#ld11 {
+    top: 406px;
+    left: 757px;
+}
+#ld12 {
+    top: 586px;
+    left: 607px;
+}
+#ld13 {
+    top: 586px;
+    left: 757px;
+}
+#ld14 {
+    top: 270px;
+    left: 550px;
+}
+#ld15 {
+    top: 270px;
+    left: 654px;
+}
+#ld16 {
+    top: 274px;
+    left: 788px;
+}
+#ld17 {
+    top: 274px;
+    left: 882px;
+}
+
+
+
+path, .jtk-endpoint {
+    cursor: pointer;
+}

@@ -1,0 +1,1 @@
+## Speed Control of DC motor by field resistance control
