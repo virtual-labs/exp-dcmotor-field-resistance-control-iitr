@@ -135,6 +135,10 @@ function changeImage()
             document.getElementById("slider").disabled=true;
             document.getElementById("slider_1").disabled=false;
             document.getElementById("check-button").disabled=true;
+
+
+           
+            
          
         }
         else
@@ -1125,7 +1129,7 @@ jsPlumb.ready(function () {
             } 
         else {
             //document.getElementById("mcb_off").disabled = true;
-            alert("Incorrect Connections.");
+            alert("Incorrect Connections");
             return;
             } 
     });
@@ -1844,7 +1848,7 @@ function fnccheck()
             } 
         else {
             //document.getElementById("mcb_off").disabled = true;
-            alert("Incorrect Connections.");
+            alert("Incorrect Connections");
             return;
             } 
     });

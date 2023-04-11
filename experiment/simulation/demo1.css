@@ -13,6 +13,7 @@
   }
 }
 
+
 .tooltip {
   position: absolute;
   display: inline-block;
@@ -23,19 +24,19 @@
 
 .tooltip .tooltiptext {
   visibility: hidden;
-  width: 350px;
-  background-color: #D3D3D3;
+  width: 370px;
+  background-color: white;
   color: #000;
-  text-align: center;
+  text-align: justify;
   border-radius: 6px;
   padding: 5px 0;
-  opacity: 0.9;
+  opacity: 1;
   /* Position the tooltip */
   position: absolute;
   z-index: 1;
   top: 100%;
   left: 50%;
-  margin-left: -60px;
+  margin-left: -283px;
 }
 
 .tooltip:hover .tooltiptext {
@@ -105,15 +106,27 @@
     border: 1px solid orange;
 }
 
+footer{
+    position: absolute;
+    background-color: grey;
+    width:1242px;
+    height:30px;
+    color: white;
+    margin-top: 1030px;
+    margin-left: 30px;
+    text-align: center;
+    padding-top: 15px;
+}
+
 /** ELEMENT POSITIONS **/
 #ld1 {
     top: 280px;
-    left: 78px;
+    left: 137px;
 }
 
 #ld2 {
     top: 280px;
-    left: 137px;
+    left: 88px;
 }
 
 #ld3 {
@@ -156,8 +169,6 @@
     left: 607px;
 }
 
-
-
 #ld11 {
     top: 406px;
     left: 757px;
@@ -172,11 +183,11 @@
 }
 #ld14 {
     top: 270px;
-    left: 550px;
+    left: 552px;
 }
 #ld15 {
     top: 270px;
-    left: 654px;
+    left: 652px;
 }
 #ld16 {
     top: 274px;
@@ -188,7 +199,8 @@
 }
 
 
-
 path, .jtk-endpoint {
     cursor: pointer;
 }
+
+
