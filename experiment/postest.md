@@ -24,13 +24,13 @@ D None of these
 Q4 Speed regulation of a d.c. motor can be ideally achieved with
 A A.C. excitation to the field of the motor<br>
 B Variable excitation to the field of the motor<br>
-<b>C constant excitation to the field of the motor<br></b>
-D no excitation to the field of the motor<br>
+<b>C Constant excitation to the field of the motor<br></b>
+D No excitation to the field of the motor<br>
 
 
 Q5 Disadvantage of ward-Leonard system is
-A increased maintenance cost<br>
-B its high initial cost<br>
-C its low efficiency at light loads<br>
-<b>D all of them<br></b>
+A Increased maintenance cost<br>
+B Its high initial cost<br>
+C Its low efficiency at light loads<br>
+<b>D All of the above<br></b>
 
