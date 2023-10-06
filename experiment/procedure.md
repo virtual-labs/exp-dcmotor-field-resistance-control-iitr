@@ -1,6 +1,6 @@
 <b>STEP 1:</b> Make connections as per the instructions given below:<br>
 
-<table>
+<table style="text-align: center;">
 <tr>
                     <td style="border:1px solid black;"><b>From</b></td>
                     <td style="border:1px solid black;">A</td>
@@ -40,7 +40,7 @@
 <b>STEP 4:</b> If it shows alert <b>"Correct Connections"</b> then Turn On the MCB.<br><br>
 <b>STEP 5:</b> Then set the Voltmeter first with the help of the second slider.<br><br>
 <b>STEP 6:</b> Now, move the first slider to get corresponding values of Ammeter and Speedometer.<br><br>
-<b>STEP 7:</b> Press the <b>"Add to table"</b> button to insert the values in table.<br><br>
+<b>STEP 7:</b> Press the <b>"Add to table"</b> button to insert the values in the table.<br><br>
 <b>STEP 8:</b> After inserting values on table click on <b>"Plot graph"</b> to get your required graph.<br><br>
 <b>STEP 9:</b> Click on <b>"Print"</b> button to print the webpage.<br><br>
 <b>STEP 10:</b> Click on <b>"Reset"</b> button to reset the webpage.<br>
