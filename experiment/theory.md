@@ -4,7 +4,9 @@ We know that the speed of shunt motor is given by:<br>
 
 <center style="font-size:18px;">
 
-$$ N = \frac{V-I_a R_a} {kФ} $$
+
+
+$$ \displaystyle N= \frac{V-I_a R_a} {kФ} $$  
 
 </center>
 
