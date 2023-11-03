@@ -4,9 +4,7 @@ We know that the speed of shunt motor is given by:<br>
 
 <center style="font-size:18px;">
 
-
-
-$$ \displaystyle N= \frac{V-I_a R_a} {kФ} $$  
+N = (V-I<sub>a</sub>R<sub>a</sub>)/kФ 
 
 </center>
 
@@ -29,7 +27,7 @@ In this method field circuit resistance is varied to control the speed of a d.c 
 
 <center style="font-size:18px;">
 
-$N = \frac{V-I_aR_a}{kФ}$
+N = (V-I<sub>a</sub>R<sub>a</sub>)/kФ 
 
 </center>
 
