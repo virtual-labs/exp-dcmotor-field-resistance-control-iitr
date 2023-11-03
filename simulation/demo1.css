@@ -1,0 +1,241 @@
+ body {
+     background-color: linen;
+
+ }
+
+
+ @keyframes rotation {
+     from {
+         transform: rotate(0deg);
+     }
+
+     to {
+         transform: rotate(359deg);
+     }
+ }
+
+
+ .tooltip {
+     position: absolute;
+     display: inline-block;
+     top: 112px;
+     left: 1179px;
+     width: 76px;
+     height: 25px;
+     background-color: #ed143d;
+     color: white;
+     text-align: center;
+     justify-content: center;
+     padding-top: 7px;
+     font-size: 15px;
+     border: 2px solid black;
+     cursor: pointer;
+     font-weight: 400;
+     border-radius: 8px;
+
+ }
+
+ /* .tooltip */
+ .tooltiptext {
+     visibility: hidden;
+     width: 370px;
+     background-color: white;
+     color: #000;
+     text-align: justify;
+     border-radius: 6px;
+     padding: 5px 7px;
+     opacity: 1;
+     /* Position the tooltip */
+     position: absolute;
+     z-index: 1;
+     top: 100%;
+     left: 50%;
+     margin-left: -283px;
+     box-shadow: 5px 5px 30px;
+     border: 1px solid;
+ }
+
+ .tooltip:hover {
+     background-color: #bb2d3b;
+     box-shadow: inset 3px 3px 10px rgba(125, 0, 0, 0.125);
+
+ }
+
+ .tooltip:hover .tooltiptext {
+     visibility: visible;
+ }
+
+
+
+
+ #myTable {
+     width: 500px;
+     height: 100%;
+ }
+
+ .create_table {
+     height: 20.5em;
+     overflow-x: auto;
+ }
+
+ #rotor_part_1 {
+     position: relative;
+     top: 496px;
+     left: 541px;
+ }
+
+ /*#rotor_part_2{
+    position: relative;
+    top:520px;
+    left: 550px;
+}*/
+ .demo {
+     /* for IE10+ touch devices */
+     touch-action: none;
+ }
+
+ /** JSPLUMB ARTEFACTS **/
+ .jtk-overlay {
+     z-index: 51;
+ }
+
+ .jtk-endpoint {
+     z-index: 50;
+     cursor: move;
+ }
+
+ .jtk-connector {
+     z-index: 1;
+ }
+
+
+
+ /** ELEMENTS **/
+ .littledot {
+     cursor: pointer;
+     width: 12px;
+     height: 12px;
+     background-image: url(littledot.png);
+     z-index: 11;
+     position: absolute;
+     border-radius: 31px;
+ }
+
+
+
+ .littledot-hover-hover {
+     border: 2px solid orange;
+ }
+
+ .dropHover {
+     border: 1px solid orange;
+ }
+
+ footer {
+     position: absolute;
+     background-color: rgba(0, 0, 0, 0.856);
+     width: 1242px;
+     height: 30px;
+     color: white;
+     top: 1020px;
+     left: 30px;
+     text-align: center;
+ }
+
+ footer p{
+    position: relative;
+    margin-top: 6px;
+}
+
+ /** ELEMENT POSITIONS **/
+ #ld1 {
+     top: 280px;
+     left: 137px;
+ }
+
+ #ld2 {
+     top: 280px;
+     left: 88px;
+ }
+
+ #ld3 {
+     top: 222px;
+     left: 239px;
+ }
+
+ #ld4 {
+     top: 222px;
+     left: 300px;
+ }
+
+ #ld5 {
+     top: 222px;
+     left: 356px;
+ }
+
+ #ld6 {
+     top: 464px;
+     left: 129px;
+ }
+
+ #ld7 {
+     top: 395px;
+     left: 399px;
+ }
+
+ #ld8 {
+     top: 617px;
+     left: 125px;
+ }
+
+ #ld9 {
+     top: 550px;
+     left: 399px;
+ }
+
+ #ld10 {
+     top: 406px;
+     left: 607px;
+ }
+
+ #ld11 {
+     top: 406px;
+     left: 757px;
+ }
+
+ #ld12 {
+     top: 586px;
+     left: 607px;
+ }
+
+ #ld13 {
+     top: 586px;
+     left: 757px;
+ }
+
+ #ld14 {
+     top: 270px;
+     left: 552px;
+ }
+
+ #ld15 {
+     top: 270px;
+     left: 652px;
+ }
+
+ #ld16 {
+     top: 274px;
+     left: 788px;
+ }
+
+ #ld17 {
+     top: 274px;
+     left: 882px;
+ }
+
+
+ path,
+ .jtk-endpoint {
+     cursor: pointer;
+
+ }
